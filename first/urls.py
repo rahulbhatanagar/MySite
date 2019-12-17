@@ -10,7 +10,7 @@ urlpatterns=[
     path('contact/',views.contact,name='contact'),
     path('Resume/',views.pdf_view,name='pdf'),
     path('blog/',views.blog,name='blog'),
-    path('<slug:menu>/',views.detail,name='detail'),
+    path('blog/<slug:menu>/',views.detail,name='detail'),
 ]
 
 

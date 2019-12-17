@@ -2,6 +2,6 @@
 <h1>Thia is my Fisrt Blog if You have any Problem You Can Contact Me!</h1>
 {% block content %}
 {% for i in blog %}
-<a href="/{{i.slug}}/">{{i.id}}. {{i.name}}<br/></a>
+<a href="/blog/{{i.slug}}">{{i.id}}. {{i.name}}<br/></a>
 {% endfor %}
 {% endblock %}
